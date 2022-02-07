@@ -1,0 +1,59 @@
+:root {
+  --primary-font-family: 'Roboto', sans-serif;
+  --primary-text-color-light-background: #212121;
+  --secondary-text-color-light-background: #757575;
+  --accept-item-text-color: #2196f3;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+body {
+  font-family: var(--primary-font-family);
+}
+
+/* ---- HEADER ----- */
+.logo-link {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: #000000;
+}
+
+.logo-web {
+  color: #2196f3;
+}
+
+.nav-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--primary-text-color-light-background);
+}
+
+.contacts-top-list-link {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-text-color-light-background);
+}
+
+.nav-list-link:hover,
+.nav-list-link:focus {
+  color: var(--accept-item-text-color);
+}
+
+.contacts-top-list-link:hover,
+.contacts-top-list-link:focus {
+  color: var(--accept-item-text-color);
+}
+/* ---- /HEADER ----- */ ;
