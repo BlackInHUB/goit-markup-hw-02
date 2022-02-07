@@ -3,6 +3,8 @@
   --primary-text-color-light-background: #212121;
   --secondary-text-color-light-background: #757575;
   --accept-item-text-color: #2196f3;
+  --dark-theme-background: #2f303a;
+  --light-theme-background: #ffffff;
 }
 
 .list {
@@ -15,20 +17,21 @@
 
 body {
   font-family: var(--primary-font-family);
+  background-color: var(--light-theme-background);
 }
 
-/* ---- HEADER ----- */
+/* ----- HEADER ----- */
 .logo-link {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #000000;
+  color: var(--accept-item-text-color);
 }
 
-.logo-web {
-  color: #2196f3;
+.logo-studio-top {
+  color: #000000;
 }
 
 .nav-list-link {
@@ -56,4 +59,35 @@ body {
 .contacts-top-list-link:focus {
   color: var(--accept-item-text-color);
 }
-/* ---- /HEADER ----- */ ;
+/* ----- /HEADER ----- */
+
+/* ----- HERO ----- */
+.hero {
+  background-color: var(--dark-theme-background);
+}
+
+.hero-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.modal-btn {
+  font-family: inherit;
+  background-color: var(--accept-item-text-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+}
+
+.modal-btn:hover,
+.modal-btn:focus {
+  background-color: #188ce8;
+}
+/* ----- /HERO ----- */
