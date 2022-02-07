@@ -96,6 +96,7 @@ body {
   line-height: 1.88;
   letter-spacing: 0.06em;
   color: #ffffff;
+  cursor: pointer;
 }
 
 .modal-btn:hover,
@@ -125,6 +126,14 @@ body {
 /* ----- /WE DO ----- */
 
 /* ----- OUR TEAM ----- */
+.our-team-section {
+  background-color: var(--middle-theme-background);
+}
+
+.our-team-list-item {
+  background-color: #ffffff;
+}
+
 .our-team-title {
   font-weight: 500;
   font-size: 16px;
@@ -143,3 +152,69 @@ body {
   color: var(--secondary-text-color-light-background);
 }
 /* ----- /OUR TEAM ----- */
+
+/* ----- FOOTER ----- */
+footer {
+  background-color: var(--dark-theme-background);
+}
+
+.logo-studio-bottom {
+  color: #ffffff;
+}
+
+.address-link {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.address-link:hover,
+.address-link:focus {
+  color: var(--accept-item-text-color);
+}
+
+.address {
+  color: #ffffff;
+}
+
+/* ===== PORTFOLIO ===== */
+
+/* ----- MAIN ----- */
+.filter-list-btn {
+  background-color: var(--middle-theme-background);
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.63;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color-light-background);
+  cursor: pointer;
+}
+
+.filter-list-btn:hover,
+.filter-list-btn:focus {
+  background-color: var(--accept-item-text-color);
+  color: #ffffff;
+}
+
+.portfolio-item-title {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+  color: var(--primary-text-color-light-background);
+}
+
+.portfolio-item-description {
+  font-size: 16px;
+  line-height: 1.88;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color-light-background);
+}
+/* ----- /MAIN ----- */
+
+/* ===== /PORTFOLIO ===== */
