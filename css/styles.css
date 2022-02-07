@@ -5,6 +5,7 @@
   --accept-item-text-color: #2196f3;
   --dark-theme-background: #2f303a;
   --light-theme-background: #ffffff;
+  --middle-theme-background: #f5f4fa;
 }
 
 .list {
@@ -20,7 +21,16 @@ body {
   background-color: var(--light-theme-background);
 }
 
-/* ----- HEADER ----- */
+/* ----- SAME COMPONENTS ----- */
+.section-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color-light-background);
+}
+
 .logo-link {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
@@ -29,7 +39,9 @@ body {
   letter-spacing: 0.03em;
   color: var(--accept-item-text-color);
 }
+/* ----- /SAME COMPONENTS ----- */
 
+/* ----- HEADER ----- */
 .logo-studio-top {
   color: #000000;
 }
@@ -91,3 +103,43 @@ body {
   background-color: #188ce8;
 }
 /* ----- /HERO ----- */
+
+/* ----- BENEFITS ----- */
+.benefits-title {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: var(--primary-text-color-light-background);
+}
+.benefits-descriptoin {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color-light-background);
+}
+/* ----- /BENEFITS ----- */
+
+/* ----- WE DO ----- */
+/* ----- /WE DO ----- */
+
+/* ----- OUR TEAM ----- */
+.our-team-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+  color: var(--primary-text-color-light-background);
+}
+
+.out-team-profession {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.19;
+  /* text-align: center; */
+  letter-spacing: 0.03em;
+  color: var(--secondary-text-color-light-background);
+}
+/* ----- /OUR TEAM ----- */
